@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+
+  <main>
+    <div class="container ">     
+      <!-- <img src="./images/camp.png" alt=" "> -->
+    
+      <div>
+        <form class="form" role="search">
+          <input id="city" class="search"  placeholder="Search...." >
+          <button class="button" type="submit" id="submit"> Search City </button>
+        </form>
+      </div>
+
+
+
+      <div class="card">
+        <h4 class="heading">Weather in <span id="cityName"></span> </h4>
+      </div>
+      <div class="card-body">
+
+        <div class="temp-det">
+        <h2> <span id="temp"></span><span id="cel">&#8451;</span>
+        </h2>
+      </div>
+        <ul class="list">
+          <li> Feels  like    <span id="feels_like"></span>  <span>&deg;</span></li>
+          <li>Humidity - <span id="humidity"> </span> % </li> 
+        </ul>
+        <ul  class="display">       
+          <li>Max-temp - <span id="max_temp"></span></span> <span>&#8451;</span> </li>
+          <li>Wind-speed - <span id="wind_speed">  </span> km/hr</li>
+          <li>Min-temp - <span id="min_temp"> </span> </li>
+          <li>  Cloud - pct <span  id="cloud_pct"> </span> </li>
+          <li>Sunrise - <span id="sunrise"> </span> </li>
+          <li>Sunset - <span id="sunset"> </span> </li>
+          <li>Wind-degree - <span id="wind_degrees"> </span> km/hr</li>
+        </ul> 
+     
+      </div>
+
+    </div>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

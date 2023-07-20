@@ -1,0 +1,83 @@
+*{
+    /* background-color: lavender; */
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    
+background: url('./images/weather.jpg') no-repeat center center/cover;
+background-attachment: fixed;
+
+
+}
+.list  li{
+    list-style:none ;
+}
+
+.search{
+   padding: 4px 20px;
+   margin: 39px 30px;
+   background-color: rgb(35, 32, 32);
+   color: rgb(159, 155, 155);
+   font-size: 23px;
+   font-weight: 2px;
+   border: solid white 1px ;
+}
+
+
+.button{
+    padding: 4px 18px;
+    background-color: rgb(235, 232, 232);
+    color: rgb(229, 25, 25);
+    font-size: 19px;
+    border: solid rgb(0, 0, 0) 1px ;
+    border-radius: 27px;
+    font-style: italic;
+}
+.button:hover{
+    background-color: whitesmoke;
+    border-color: white
+}
+
+.card{
+    font-size: 37px;
+    margin: 3px 55px;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#cityName{
+    color:rgb(196, 95, 95);
+    font-size: 44px;
+}
+
+
+.card-body ul li{
+        margin-left: 160px;
+        font-size: 23px;
+        padding: 7px 3px ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
+       
+}
+#feels_like{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+#humidity{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.temp-det {
+    padding-left: 220px; 
+    font-size: 30px;
+}
+
+.display li{
+    display: none;
+}
+
