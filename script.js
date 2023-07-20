@@ -10,7 +10,7 @@ const options = {
 
 
 const getWeather = (city) => {
-    cityName.innerHTML = city
+     cityName.innerHTML = city
 
     fetch(`https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=` + city, options)
         .then(response => response.json())
@@ -38,10 +38,7 @@ const getWeather = (city) => {
 }
 getWeather("Delhi");   // default weather of Delhi city
 
-submit.addEventListener("click", (e) => {
-    e.preventDefault();
-    getWeather(city.value);
-})
+
 
 
 
